@@ -4,7 +4,7 @@ import LogoCont from "./Logos";
 
 function About() {
   return (
-    <div className="flex flex-col items-center py-24 px-6 md:px-16 max-w-8xl mx-auto gap-8 lg:gap-14 duration-500">
+    <div className="flex flex-col items-center pt-32 px-6 md:px-16 max-w-8xl mx-auto gap-8 lg:gap-14 duration-500">
       <div className="flex items-center justify-center gap-8">
         <Avatar src={AvatarImg} alt="Avatar" />
         <AboutText />

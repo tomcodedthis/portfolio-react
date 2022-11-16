@@ -1,14 +1,16 @@
 import Header from "../components/Header";
 import About from "../components/About";
 import "./App.css";
-import WorkCont from "../components/Work";
+import Work from "../components/Work";
+import Connect from "../components/Connect";
 
 function App() {
   return (
     <>
       <Header />
       <About />
-      <WorkCont />
+      <Work />
+      <Connect />
     </>
   );
 }
