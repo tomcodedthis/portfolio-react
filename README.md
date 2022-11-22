@@ -1,1 +1,1 @@
-## This is my personal potfolio, built wiith React.
+## This is my personal potfolio, built with React.
