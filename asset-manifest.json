@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.6c46c5a2.css",
-    "main.js": "/portfolio-react/static/js/main.70f1925a.js",
+    "main.css": "/portfolio-react/static/css/main.db340c26.css",
+    "main.js": "/portfolio-react/static/js/main.0e87e42c.js",
+    "static/media/ToDo-Img2.png": "/portfolio-react/static/media/ToDo-Img2.55154bd20035d7665834.png",
     "static/media/MT-Img2.png": "/portfolio-react/static/media/MT-Img2.6ce27fc7b0b72c2004db.png",
+    "static/media/ToDo-Img3.png": "/portfolio-react/static/media/ToDo-Img3.12957ba3e8e726166b93.png",
+    "static/media/ToDo-Img1.png": "/portfolio-react/static/media/ToDo-Img1.0dd90db0e4de2826ea04.png",
     "static/media/MT-Img3.png": "/portfolio-react/static/media/MT-Img3.2f8b51c9f83b6464f42a.png",
     "static/media/avatar-560.png": "/portfolio-react/static/media/avatar-560.d6586c6a8a0cebb75d43.png",
     "static/media/MT-Img1.png": "/portfolio-react/static/media/MT-Img1.8a1ebf0faff044f8f11c.png",
+    "static/media/Chess-Img2.png": "/portfolio-react/static/media/Chess-Img2.95c3cbb73b1ebe550f89.png",
+    "static/media/Chess-Img3.png": "/portfolio-react/static/media/Chess-Img3.9c0e00c16882a6814586.png",
+    "static/media/Chess-Img1.png": "/portfolio-react/static/media/Chess-Img1.eb5dfdb15d0710d0cf51.png",
     "static/media/React-Logo.png": "/portfolio-react/static/media/React-Logo.3d6df4d1915fe832d1a6.png",
     "index.html": "/portfolio-react/index.html",
-    "main.6c46c5a2.css.map": "/portfolio-react/static/css/main.6c46c5a2.css.map",
-    "main.70f1925a.js.map": "/portfolio-react/static/js/main.70f1925a.js.map"
+    "main.db340c26.css.map": "/portfolio-react/static/css/main.db340c26.css.map",
+    "main.0e87e42c.js.map": "/portfolio-react/static/js/main.0e87e42c.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c46c5a2.css",
-    "static/js/main.70f1925a.js"
+    "static/css/main.db340c26.css",
+    "static/js/main.0e87e42c.js"
   ]
 }
