@@ -2,15 +2,17 @@ import React from "react";
 
 function Connect() {
   return (
-    <div className="flex flex-col items-center py-32 px-6 md:px-16 max-w-8xl mx-auto gap-8 lg:gap-14 duration-500">
-      <Form />
-      <Links
-        email="tomcodedthis@gmail.com"
-        icon1={"github"}
-        icon1Link="https://github.com/tomcodedthis"
-        icon2={"linkedin"}
-        icon2Link="https://www.linkedin.com/in/tom-howcroft"
-      />
+    <div id="connect-cont" className="bg-sec-prim">
+      <div className="flex flex-col items-center py-20 md:py-32 px-6 md:px-16 max-w-8xl mx-auto gap-8 lg:gap-14 duration-500">
+        <Form />
+        <Links
+          email="tomcodedthis@gmail.com"
+          icon1={"github"}
+          icon1Link="https://github.com/tomcodedthis"
+          icon2={"linkedin"}
+          icon2Link="https://www.linkedin.com/in/tom-howcroft"
+        />
+      </div>
     </div>
   );
 }
@@ -33,7 +35,7 @@ function Form() {
       method="post"
       action="https://postmail.invotes.com/send"
       className={
-        "flex flex-col justify-center gap-6 h-full w-full max-w-[900px] text-white text-lg md:text-xl lg:text-2xl"
+        "flex flex-col justify-center gap-4 h-full w-full max-w-[900px] text-white text-lg md:text-xl lg:text-2xl"
       }
     >
       <div className="grid sm:grid-cols-[40%_calc(60%_-_1rem)] gap-4">
@@ -107,6 +109,15 @@ function Input(props) {
 function Links(props) {
   return (
     <div className="flex flex-col items-center gap-10 font-semibold tracking-wide text-2xl md:text-3xl lg:text-4xl">
+      <div
+        className="cursor-pointer opacity-70 hover:opacity-100 duration-500"
+        onClick={() => {
+          window.open(`mailto:${props.email}`);
+        }}
+      >
+        {props.email}
+      </div>
+
       <div className="flex gap-10">
         <a href={props.icon1Link} target="_blank" rel="noreferrer">
           <i
@@ -118,15 +129,6 @@ function Links(props) {
             className={`fa-brands fa-${props.icon2} fa-2x opacity-70 hover:opacity-100 duration-500`}
           ></i>
         </a>
-      </div>
-
-      <div
-        className="cursor-pointer opacity-70 hover:opacity-100 duration-500"
-        onClick={() => {
-          window.open(`mailto:${props.email}`);
-        }}
-      >
-        {props.email}
       </div>
     </div>
   );

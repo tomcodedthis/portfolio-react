@@ -4,7 +4,7 @@
 
 :root {
   --primary: #060a21;
-  --secondary: #021d2b;
+  --secondary: #032435;
   --added: #0c4a6e;
 }
 
@@ -16,6 +16,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+*::selection {
+  background: rebeccapurple;
+}
 
 .bg-primary {
   background-color: var(--primary);
@@ -23,6 +26,20 @@ body {
 .bg-secondary {
   background-color: var(--secondary);
 }
+.bg-prim-sec {
+  background-image: linear-gradient(var(--primary), var(--secondary));
+}
+.bg-sec-prim {
+  background-image: linear-gradient(var(--secondary), var(--primary));
+}
+.bg-sec-prim-sec {
+  background-image: linear-gradient(
+    var(--secondary),
+    var(--primary),
+    var(--secondary)
+  );
+}
+
 .border-primary {
   border-color: var(--primary);
 }
@@ -38,4 +55,47 @@ body {
 }
 .max-w-8xl {
   max-width: 100rem;
+}
+
+.blur-img-left {
+  transform: translatex(-25%) scale(0.8);
+  opacity: 0.6;
+  z-index: 0;
+}
+.blur-img-right {
+  transform: translatex(25%) scale(0.8);
+  opacity: 0.6;
+  z-index: 0;
+}
+.focus-img-center {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+}
+
+.animate:hover {
+  animation-play-state: paused;
+}
+.animate-revolve-small {
+  animation: revolve-small 25s linear infinite;
+}
+.animate-revolve-large {
+  animation: revolve-large 25s linear infinite;
+}
+
+@keyframes revolve-small {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50px * 8));
+  }
+}
+@keyframes revolve-large {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100px * 8));
+  }
 }
