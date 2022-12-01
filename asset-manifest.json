@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.e06b42d1.css",
-    "main.js": "/portfolio-react/static/js/main.8a1a682a.js",
+    "main.css": "/portfolio-react/static/css/main.b93cb053.css",
+    "main.js": "/portfolio-react/static/js/main.8f703b93.js",
     "static/media/ToDo-Img2.png": "/portfolio-react/static/media/ToDo-Img2.55154bd20035d7665834.png",
     "static/media/MT-Img2.png": "/portfolio-react/static/media/MT-Img2.6ce27fc7b0b72c2004db.png",
     "static/media/ToDo-Img3.png": "/portfolio-react/static/media/ToDo-Img3.12957ba3e8e726166b93.png",
@@ -21,11 +21,11 @@
     "static/media/JS-Logo.png": "/portfolio-react/static/media/JS-Logo.786c0a1666781d9e6e7b.png",
     "static/media/HTML-Logo.png": "/portfolio-react/static/media/HTML-Logo.449f0d2bcd8304167554.png",
     "index.html": "/portfolio-react/index.html",
-    "main.e06b42d1.css.map": "/portfolio-react/static/css/main.e06b42d1.css.map",
-    "main.8a1a682a.js.map": "/portfolio-react/static/js/main.8a1a682a.js.map"
+    "main.b93cb053.css.map": "/portfolio-react/static/css/main.b93cb053.css.map",
+    "main.8f703b93.js.map": "/portfolio-react/static/js/main.8f703b93.js.map"
   },
   "entrypoints": [
-    "static/css/main.e06b42d1.css",
-    "static/js/main.8a1a682a.js"
+    "static/css/main.b93cb053.css",
+    "static/js/main.8f703b93.js"
   ]
 }
